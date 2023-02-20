@@ -1,5 +1,6 @@
 body {
     font-family: Times New Roman;
+    background-color: #2b2b2a;
 }
 
 header {
@@ -91,7 +92,7 @@ nav {
         position: fixed;
         top: 48.5px;
         left: -100%;
-        width: 35%;
+        width: 40%;
         height: auto;
         background-color: #000;
     }
@@ -148,13 +149,4 @@ nav {
         text-shadow: 5px 5px 10px #ed11b2,
                      -5px -5px 10px #ed11b2;
     }
-}
-
-.some {
-    display: block;
-    height: 120px;
-    max-width: 500px;
-    background: #123456;
-    margin: 50px;
-    padding: 20px;
 }
