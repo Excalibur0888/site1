@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4af8291-1d74-49bb-9174-ab901ea12fab" name="Changes" comment="">
+    <list default="true" id="f4af8291-1d74-49bb-9174-ab901ea12fab" name="Changes" comment="no images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/myhtml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/mystyle.css" afterDir="false" />
@@ -43,6 +43,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676831799270</updated>
     </task>
+    <task id="LOCAL-00001" summary="no images">
+      <created>1676914912417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676914912417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +66,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="no images" />
+    <option name="LAST_COMMIT_MESSAGE" value="no images" />
   </component>
 </project>

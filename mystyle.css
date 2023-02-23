@@ -150,3 +150,49 @@ nav {
                      -5px -5px 10px #ed11b2;
     }
 }
+.line {
+    height: 5px;
+    background: skyblue;
+    margin: 10px;
+}
+
+.text_image {
+    margin: 60px 0 0 0;
+    color: #fff;
+}
+
+._image {
+    display: block;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+._image#first_img {
+    margin: 4px 10px 10px 0;
+}
+
+@media (max-width: 767px) {
+    ._image {
+        max-width: 200px;
+    }
+}
+@media (max-width: 324px) {
+    ._image {
+        max-width: 100%;
+    }
+}
+
+bottom {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+bottom p {
+  margin: 0;
+  color: #666;
+}
