@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4af8291-1d74-49bb-9174-ab901ea12fab" name="Changes" comment="no images">
+    <list default="true" id="f4af8291-1d74-49bb-9174-ab901ea12fab" name="Changes" comment="not completed copyright menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/myhtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjavascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/myjavascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/mystyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676914912417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="not completed copyright menu">
+      <created>1677182973437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677182973437</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +75,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="no images" />
-    <option name="LAST_COMMIT_MESSAGE" value="no images" />
+    <MESSAGE value="not completed copyright menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="not completed copyright menu" />
   </component>
 </project>
