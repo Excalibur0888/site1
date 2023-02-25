@@ -28,7 +28,7 @@ nav {
 .dropmenu {
     font-size: 15px;
     margin: 0 auto;
-    width: 130px;
+    width: auto;
     height: 48.5px;
     overflow: hidden;
     transition: height 0.3s ease-in;
@@ -152,6 +152,7 @@ nav {
 }
 
 h1 {
+    font-size: 3vw;
     text-align: center;
     color: #fff;
     margin-top: 60px;
@@ -170,24 +171,6 @@ h1:after {
     margin: 0 20px 0 20px;
     border-radius: 20% 30% / 90% 10%;
     background: linear-gradient(to left, red 10%, orange 30%, yellow 80%);
-}
-
-@media (max-width: 844px) {
-    h1:before, h1:after {
-        content: '  ⠀⠀⠀⠀⠀⠀⠀⠀';
-    }
-}
-
-@media (max-width: 586px) {
-    h1:before, h1:after {
-        content: '⠀⠀⠀⠀';
-    }
-}
-
-@media (max-width: 460px) {
-    h1:before, h1:after {
-        display: none;
-    }
 }
 
 .line {
@@ -213,17 +196,21 @@ h1:after {
 }
 
 .text_image {
-    font-size: 18px;
+    font-size: 1.5vw;
     color: #fff;
 }
-
+@media (max-width: 1100px) {
+    .text_image {
+        font-size: 14px;
+    }
+}
 ._image {
     border-radius: 30px;
     border-style: dashed;
     color: yellow;
     display: block;
     max-width: 300px;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     float: left;
     margin: 10px 10px 10px 0;
@@ -232,6 +219,15 @@ h1:after {
     margin: 4px 10px 10px 0;
 }
 
+footer {
+    margin-top: 60px;
+    background-color: #969696;
+    border-top: 1px solid #ddd;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1vw;
+}
 @media (max-width: 767px) {
     ._image {
         max-width: 200px;
@@ -242,12 +238,9 @@ h1:after {
         max-width: 100%;
     }
 }
-
-footer {
-    background-color: #969696;
-    border-top: 1px solid #ddd;
-    padding: 5px;
-    text-align: center;
-    font-size: 14px;
+@media (min-width: 1500px) {
+    ._image {
+        max-width: 500px;
+    }
 }
 
