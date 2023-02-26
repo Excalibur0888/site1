@@ -28,7 +28,7 @@ nav {
 .dropmenu {
     font-size: 15px;
     margin: 0 auto;
-    width: auto;
+    width: 10%;
     height: 48.5px;
     overflow: hidden;
     transition: height 0.3s ease-in;
@@ -191,7 +191,7 @@ h1:after {
 }
 
 .line.active_line#secret1, .line.active_line#secret1 a, .line.active_line#secret2, .line.active_line#secret2 a {
-    height: 20px;
+    height: 25px;
     visibility: visible;
 }
 
